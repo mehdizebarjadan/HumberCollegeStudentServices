@@ -1,0 +1,312 @@
+/*Major PHP Project CSS style*/
+/*by Sina, Mehdi, & Philip*/
+
+/*General Styles for HTML Elements*/
+html,
+body {
+  height: 100%;
+}
+
+body{
+    background-image:url('images/background.jpg');
+    font-family: Arial;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    margin-top:15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+input[type=text]{
+    margin:5px 0px;
+}
+
+select{
+    margin:5px;
+}
+
+.error{
+    color:red;
+}
+
+.blackback{
+    background:rgba(0,0,0,0.7);
+    padding: 10px 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*Custom Containers*/
+.container{
+    background:rgba(255,255,255,0.9);
+}
+
+.carousel{
+    width:100%;
+    height:auto;
+}
+
+#myCarousel{
+    max-width:700px;
+    height:auto;
+    float:left;
+    margin-bottom:20px;
+}
+
+
+#footer {
+  background: #E7E7E7;
+  width:100%;
+  height:auto;
+  margin-top:30px;
+}
+
+/*Navbar styles*/
+.navbar{
+    border:none;
+    border-bottom: 3px solid #474747;
+    border-radius: 0px;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-default .navbar-nav > li > a{
+    color:#1c2d5b;
+}
+
+.navbar li:hover{
+    background-color:#E7E7E7;
+}
+
+.navbar-collapse, .navbar-default{
+    background:#fff;
+}
+
+.nav-logo{
+    max-width:200px;
+}
+
+/*Sidebar styles*/
+
+.login-form{
+    height: 30px;
+    padding: 5px 12px;
+font-size: 12px;
+line-height: 1.42857;
+color: #555;
+background-color: #FFF;
+background-image: none;
+border: 1px solid #CCC;
+border-radius: 4px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.login-text{
+    margin: 20px 0px;
+    text-align:right;
+}
+
+#sidebar{
+    float:right;
+    width:100%;
+    padding:0px 10px 10px 0px;
+}
+
+#sidebar h2{
+    margin-top:0px;
+}
+
+/*Clearfix*/
+.clear{
+    clear:both;
+    padding-top:10px;
+}
+
+.line{
+    border-top: 3px solid #474747;
+    margin-top: 10px;
+}
+
+.action-item:hover{
+    opacity:0.6;
+}
+
+.home-action{
+    max-width:200px;
+}
+
+.news-thumb{
+    max-width:150px;
+    padding:0px 5px 5px 5px;
+    float:right;
+}
+
+.news-thumb-edit{
+    max-width:300px;
+}
+
+.classifieds-thumb{
+    max-width:100px;
+    max-height:100px;
+    float:right;
+}
+
+.imgPreview{
+    max-width:300px;
+}
+
+.grey{
+    color:#848484;
+}
+
+.allNewsThumb{
+    max-width:300px;
+    height:auto;
+    margin-bottom:20px;
+}
+
+.right{
+    float:right;
+}
+
+.articleImage{
+    max-width:400px;
+    float:right;
+    margin: 0px 0px 20px 20px;
+}
+
+.articleTitle a{
+    color:#333;
+}
+
+.articleTitle a:hover{
+    text-decoration:underline;
+}
+
+.date{
+    color:#848484;
+    font-size:12px;
+}
+
+.subhead{
+    font-size:12px;
+    margin-left:10px;
+}
+
+.contact-details{
+    background:#606C8C;
+    color:#fff;
+    width:100%;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.contact-details a{
+    color:#CFCFCF
+}
+
+/*ADMIN PAGE STYLES */
+
+.bodyInput{
+    width:100%;
+    min-height:500px;
+}
+
+.titleInput{
+    width:100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.authorInput{
+    width:100%;
+}
+
+
+.adminLabel{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.adminLogin{
+    margin: 20px 0px;
+}
+
+.saveButton{
+    color:#fff;
+    background:green;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:bold;
+    float:right;
+}
+
+.public-button{
+    color:#fff;
+    background:#1c2d5b;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:bold;
+    float:right;
+}
+
+.cancelButton{
+    color:#fff;
+    background:red;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:bold;
+    float:right;
+}
+
+.instructions{
+    font-style:italic;
+}
+
+.success{
+    color:green;
+}
+
+.social-wrap{
+    margin: 20px 0px;
+}
+
+/*footer styles */
+footer ul{
+    list-style: none;
+    text-alignt:center;
+}
+
+footer a{
+    color:#1c2d5b;
+}
+
+/*clear styles*/
+.floatnone{
+    float:none;
+}
+.heading h2{
+    color: #0782C1;
+}
+
+.Success{
+    border: 1px solid #398439;
+    border-radius: 20px;
+    background-color: rgba(132, 131, 57, 0.36);
+    padding: 20px;
+}
+span.err-msg {
+    color: #ff0000;
+    display: block;
+    font-size: 14px;
+    padding-top: 3px;
+}
